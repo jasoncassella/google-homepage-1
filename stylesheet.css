@@ -3,7 +3,7 @@ body {
     height: 100vh;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-}
+} 
 nav {
     display: flex;
     justify-content: space-between;
@@ -49,3 +49,21 @@ main {
     justify-content: flex-end;
     height: 166px;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="search"] {
+    width: 584px;
+    border-radius: 2em;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    margin: 2em 0;
+}
+.form-button {
+    padding: .75em 1.5em;
+    background-color: #f8f9fa;
+    margin: .3em;
+}
+    
